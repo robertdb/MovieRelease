@@ -18,6 +18,7 @@ export const CountDown = styled.div`
 `;
 
 export const Title = styled.h2`
+    text-transform: uppercase;
     font-size: 1.4rem;
     height: 22px;
 `;
