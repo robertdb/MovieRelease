@@ -35,7 +35,7 @@ class Card extends Component {
 
             // If the count down is over, write some text 
             if (distance < 0) {
-                this.setState({ movieTime: `Movie Day!` });
+                this.setState({ movieTime: `Movie Released!` });
             }
         }, 1000);
     }
